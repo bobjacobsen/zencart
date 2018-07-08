@@ -41,7 +41,7 @@ ADDRESS {font-style:normal;}
 #headerWrapper, #contentMainWrapper, #logoWrapper, #cartBoxListWrapper, #ezPageBoxList, #cartBoxListWrapper ul, #ezPageBoxList ul, #mainWrapper, #popupAdditionalImage, #popupImage {margin:0;padding:0em;}
 #mainWrapper {margin:auto;} 
 #logo, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .centerBoxContentsAlsoPurch, .attribImg {float:left;}
-#tagline {margin:10px 10px 25px 0px;color:#b5b5b5;font-size:1.65em;text-align:left;text-transform:lowercase;vertical-align:bottom;}
+#tagline {margin:10px 10px 25px 0px;color:#b5b5b5;font-size:1.65em;text-align:left;vertical-align:bottom;} /* removed text-transform:lowercase; */
 #logo {padding-left:15px;margin-top:-20px;}
 #sendSpendWrapper {margin:0em 0em 1em 1em;border:1px solid #cacaca;float:right;}
 .floatingBox, #accountLinksWrapper, #sendSpendWrapper, #checkoutShipto, #checkoutBillto, #navEZPagesTOCWrapper {margin:0;width:47%;}
