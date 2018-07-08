@@ -1,0 +1,20 @@
+#footer {clear:both;margin:0 auto;background-color:#444;padding-top:10px;}
+#navSuppWrapper {margin: 10px 5px 0;padding: 0;background:none;font-weight: bold;line-height:18px;}	
+#navSuppWrapper a{color:#fffffd;font-weight:normal;}
+dl {margin: 0 0 3px 0;padding:0;clear:both;height:160px;width:100%;}/*Adjust the height and width of the menu*/
+dt {margin-bottom:.3em;font-weight:bold;}
+dd {margin:0;padding:0;float:left;width:24.3%;}/*Column width of the menu - currently set for 4 columns*/
+dd ul {margin:0;padding:0;list-style: none;}
+dd li {margin:0;padding:0;}
+dd li a {margin:0;padding-left:2em;display:block;}
+dd li a:hover {background:#5dc9e1;color:#fff;}
+.menuTitle {margin:0;padding-bottom:.8em;text-align:center;font-size:1.1em;color:#5dc9e2;}
+.first, .second, .third {border-right:1px dashed #fff;}
+#siteinfoLegal {padding: .5em 0 0;font-size: 0.9em;/*text-align:right;*/width:80%;line-height:normal;clear:both;color:#fffffd;margin-left:20px;float:left;margin-top:-40px;}
+#siteinfoLegal a {padding: 0 0.5em 0 0.5em;color: #5dc9e2;font-weight:bold;white-space: nowrap;}
+#siteinfoLegal a:hover {color: #fffffd;}
+.twitter-image {margin-right:10px;}
+#social-media {float:right;margin-right:15px;margin-top:-20px;margin-bottom:20px;}
+#bannerSix {margin-top:0px;margin-bottom:30px;}
+#siteinfoIP{background-color:#edf9fb;padding-top:20px;}
+

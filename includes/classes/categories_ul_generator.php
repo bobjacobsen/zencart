@@ -1,12 +1,12 @@
 <?php
-// +----------------------------------------------------------------------+
+//placeholder21// +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
-// | Copyright(c) 2003 The zen-cart developers                            |
+// | Copyright(c) 2003 The zen-cart developers                           |
 // |                                                                      |
 // | http://www.zen-cart.com/index.php                                    |
 // |                                                                      |
-// | Portions Copyright(c) 2003 osCommerce                                |
+// | Portions Copyright(c) 2003 osCommerce                               |
 // +----------------------------------------------------------------------+
 // | This source file is subject to version 2.0 of the GPL license,       |
 // | that is bundled with this package in the file LICENSE, and is        |
@@ -18,8 +18,8 @@
 // +----------------------------------------------------------------------+
 // $Id: categories_ul_generator.php 2004-07-11  DrByteZen $
 //      based on site_map.php v1.0.1 by networkdad 2004-06-04
-//  Modified by Anne, www.picaflor-azul.com
 //
+
 
 class zen_categories_ul_generator {
     var $root_category_id = 0,
@@ -36,7 +36,7 @@ class zen_categories_ul_generator {
     var $document_types_list = ' (3) ';
     // acceptable format example: ' (3, 4, 9, 22, 18) '
     
-    function __construct($load_from_database = true)
+    function zen_categories_ul_generator($load_from_database = true)
     {
         global $languages_id, $db;
         $this->data = array();
@@ -85,3 +85,4 @@ class zen_categories_ul_generator {
         return $this->buildBranch($this->root_category_id, '', $submenu);
     }
 }
+?>

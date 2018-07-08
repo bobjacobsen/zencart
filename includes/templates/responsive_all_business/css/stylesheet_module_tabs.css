@@ -1,0 +1,7 @@
+#moduleMenu {background:none;height:30px;background:#e2e3e8;background: -moz-linear-gradient(top, #f8f8f8, #e2e3e8);background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8), to(#e2e3e8));background: -o-linear-gradient(top, #f8f8f8, #e2e3e8);margin-top:-30px;text-align:center;}
+#moduleMenu span{ float:left;}
+#moduleMenu span a {color:#1bbee7;display:block;outline:none;text-align:center;padding-top:7px;font-size:13px;padding-left:40px;}
+#moduleMenu span a:hover {color:#444;}
+#featuredProducts {display:block;}
+.moduleBox{font-weight:bold;text-transform:uppercase;}
+#moduleMenu-wrapper{border:1px solid #ccc;width:95%;margin:0 auto;background:#fff;margin-top:75px;}
