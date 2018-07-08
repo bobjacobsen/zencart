@@ -23,14 +23,14 @@
 define('EXTRAFIELD_TITLE', 'EXTRA FIELDS');
 
 
-define('ENTRY_EXTRAFIELD1', 'Field #1:');
-define('ENTRY_EXTRAFIELD_ERROR1', 'Please enter Field #1.');
+define('ENTRY_EXTRAFIELD1', 'Name on Badge:');
+define('ENTRY_EXTRAFIELD_ERROR1', 'Please enter your preferred badge name.');
 
-define('ENTRY_EXTRAFIELD2', 'Field #2:');
-define('ENTRY_EXTRAFIELD2_ERROR', 'Please enter Field #2.');
+define('ENTRY_EXTRAFIELD2', 'MMR:');
+define('ENTRY_EXTRAFIELD2_ERROR', 'Please enter your MMR status.');
 
-define('ENTRY_EXTRAFIELD3', 'Field #3:');
-define('ENTRY_EXTRAFIELD3_ERROR', 'Please enter Field #3.');
+define('ENTRY_EXTRAFIELD3', 'First Time Attendee:');
+define('ENTRY_EXTRAFIELD3_ERROR', 'Please enter your first time attendee status.');
 
 define('ENTRY_EXTRAFIELD4', 'Comments:');
 define('ENTRY_EXTRAFIELD4_ERROR', 'Please enter your Comments.');
