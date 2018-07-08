@@ -23,11 +23,11 @@
 
 
 // added defines for header alt and text
-  define('HEADER_ALT_TEXT', 'All Business :: Free Template by www.picaflor-azul.com');
-  define('HEADER_SALES_TEXT', 'Free Template by www.picaflor-azul.com');
-  define('HEADER_LOGO_WIDTH', '271px');
-  define('HEADER_LOGO_HEIGHT', '57px');
-  define('HEADER_LOGO_IMAGE', 'logo.jpg');
+  define('HEADER_ALT_TEXT', 'Gateway 2020');
+  define('HEADER_SALES_TEXT', 'The 2020 NMRA National Convention');
+  define('HEADER_LOGO_WIDTH', '150px');
+  define('HEADER_LOGO_HEIGHT', '150px');
+  define('HEADER_LOGO_IMAGE', 'gateway-2020-logo-300-296.png');
 
 // header Search Button/Box Search Button
   define('HEADER_SEARCH_BUTTON','Search');
