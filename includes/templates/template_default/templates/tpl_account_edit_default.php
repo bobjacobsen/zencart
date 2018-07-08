@@ -67,11 +67,69 @@ if (ACCOUNT_FAX_NUMBER == 'true' ) {
   }
 ?>
 
+<!-- start of extra field -->
+<?php
+if (DISPLAY_EXTRAFIELD1 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield1"><?php echo ENTRY_EXTRAFIELD1; ?></label>
+<?php echo zen_draw_input_field('extrafield1', $account->fields['customers_extrafield1'], 'id="extrafield1" placeholder="' . ENTRY_EXTRAFIELD1_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+<?php
+if (DISPLAY_EXTRAFIELD2 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield2"><?php echo ENTRY_EXTRAFIELD2; ?></label>
+<?php echo zen_draw_input_field('extrafield2', $account->fields['customers_extrafield2'], 'id="extrafield2" placeholder="' . ENTRY_EXTRAFIELD2_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+<?php
+if (DISPLAY_EXTRAFIELD3 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield3"><?php echo ENTRY_EXTRAFIELD3; ?></label>
+<?php echo zen_draw_input_field('extrafield3', $account->fields['customers_extrafield3'], 'id="extrafield3" placeholder="' . ENTRY_EXTRAFIELD3_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+<?php
+if (DISPLAY_EXTRAFIELD4 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield4"><?php echo ENTRY_EXTRAFIELD4; ?></label>
+<?php echo zen_draw_input_field('extrafield4', $account->fields['customers_extrafield4'], 'id="extrafield4" placeholder="' . ENTRY_EXTRAFIELD4_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+<?php
+if (DISPLAY_EXTRAFIELD5 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield5"><?php echo ENTRY_EXTRAFIELD5; ?></label>
+<?php echo zen_draw_input_field('extrafield5', $account->fields['customers_extrafield5'], 'id="extrafield5" placeholder="' . ENTRY_EXTRAFIELD5_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+<?php
+if (DISPLAY_EXTRAFIELD6 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield6"><?php echo ENTRY_EXTRAFIELD6; ?></label>
+<?php echo zen_draw_input_field('extrafield6', $account->fields['customers_extrafield6'], 'id="extrafield6" placeholder="' . ENTRY_EXTRAFIELD6_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+
+<!-- end of extra field -->
+
 <?php
   if (CUSTOMERS_REFERRAL_STATUS == 2 and $customers_referral == '') {
 ?>
 <label class="inputLabel" for="customers-referral"><?php echo ENTRY_CUSTOMERS_REFERRAL; ?></label>
-<?php echo zen_draw_input_field('customers_referral', '', zen_set_field_length(TABLE_CUSTOMERS, 'customers_referral', 15) . 'id="customers-referral"'); ?>
+<?php echo zen_draw_input_field('customers_referral', '', zen_set_field_length(TABLE_CUSTOMERS, 'customers_referral', 15) . 'id="customers-referral"', '32'); ?>
 <br class="clearBoth" />
 <?php } ?>
 

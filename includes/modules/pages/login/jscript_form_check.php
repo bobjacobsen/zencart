@@ -162,6 +162,25 @@ function check_form(form_name) {
   check_input("telephone", <?php echo ENTRY_TELEPHONE_MIN_LENGTH; ?>, "<?php echo ENTRY_TELEPHONE_NUMBER_ERROR; ?>");
 <?php } ?>
 
+<?php if (DISPLAY_EXTRAFIELD1 && EXTRAFIELD_REQUIRED1) { ?>
+  check_input("extrafield1", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR1; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD2 && EXTRAFIELD_REQUIRED2) { ?>
+  check_input("extrafield2", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR2; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD3 && EXTRAFIELD_REQUIRED3) { ?>
+  check_input("extrafield3", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR3; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD4 && EXTRAFIELD_REQUIRED4) { ?>
+  check_input("extrafield4", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR4; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD5 && EXTRAFIELD_REQUIRED5) { ?>
+  check_input("extrafield5", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR5; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD6 && EXTRAFIELD_REQUIRED6) { ?>
+  check_input("extrafield6", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR6; ?>");
+<?php } ?>
+
 <?php if ((int)ENTRY_PASSWORD_MIN_LENGTH > 0) { ?>
   check_password("password", "confirmation", <?php echo (int)ENTRY_PASSWORD_MIN_LENGTH; ?>, "<?php echo ENTRY_PASSWORD_ERROR; ?>", "<?php echo ENTRY_PASSWORD_ERROR_NOT_MATCHING; ?>");
   check_password_new("password_current", "password_new", "password_confirmation", <?php echo (int)ENTRY_PASSWORD_MIN_LENGTH; ?>, "<?php echo ENTRY_PASSWORD_ERROR; ?>", "<?php echo ENTRY_PASSWORD_NEW_ERROR; ?>", "<?php echo ENTRY_PASSWORD_NEW_ERROR_NOT_MATCHING; ?>");

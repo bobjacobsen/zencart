@@ -26,6 +26,12 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
   $email_address = zen_db_prepare_input($_POST['email_address']);
   $telephone = zen_db_prepare_input($_POST['telephone']);
   $fax = zen_db_prepare_input($_POST['fax']);
+  $extrafield1 = zen_db_prepare_input($_POST['extrafield1']);
+  $extrafield2 = zen_db_prepare_input($_POST['extrafield2']);
+  $extrafield3 = zen_db_prepare_input($_POST['extrafield3']);
+  $extrafield4 = zen_db_prepare_input($_POST['extrafield4']);
+  $extrafield5 = zen_db_prepare_input($_POST['extrafield5']);
+  $extrafield6 = zen_db_prepare_input($_POST['extrafield6']);
   $email_format = zen_db_prepare_input($_POST['email_format']);
 
   if (CUSTOMERS_REFERRAL_STATUS == '2' and $_POST['customers_referral'] != '') $customers_referral = zen_db_prepare_input($_POST['customers_referral']);
@@ -106,6 +112,12 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
                             array('fieldName'=>'customers_email_address', 'value'=>$email_address, 'type'=>'stringIgnoreNull'),
                             array('fieldName'=>'customers_telephone', 'value'=>$telephone, 'type'=>'stringIgnoreNull'),
                             array('fieldName'=>'customers_fax', 'value'=>$fax, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield1', 'value'=>$extrafield1, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield2', 'value'=>$extrafield2, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield3', 'value'=>$extrafield3, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield4', 'value'=>$extrafield4, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield5', 'value'=>$extrafield5, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield6', 'value'=>$extrafield6, 'type'=>'stringIgnoreNull'),
                             array('fieldName'=>'customers_email_format', 'value'=>$email_format, 'type'=>'stringIgnoreNull')
     );
 
@@ -157,7 +169,10 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
 
 $account_query = "SELECT customers_gender, customers_firstname, customers_lastname,
                          customers_dob, customers_email_address, customers_telephone, customers_nick,
-                         customers_fax, customers_email_format, customers_referral
+                         customers_fax, 
+                         customers_extrafield1, customers_extrafield2, customers_extrafield3,
+                         customers_extrafield4, customers_extrafield5, customers_extrafield6,
+                         customers_email_format, customers_referral
                   FROM   " . TABLE_CUSTOMERS . "
                   WHERE  customers_id = :customersID";
 

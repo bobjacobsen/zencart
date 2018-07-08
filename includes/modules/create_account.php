@@ -70,6 +70,12 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
   $country = zen_db_prepare_input($_POST['zone_country_id']);
   $telephone = zen_db_prepare_input($_POST['telephone']);
   $fax = zen_db_prepare_input($_POST['fax']);
+  $extrafield1 = zen_db_prepare_input($_POST['extrafield1']);
+  $extrafield2 = zen_db_prepare_input($_POST['extrafield2']);
+  $extrafield3 = zen_db_prepare_input($_POST['extrafield3']);
+  $extrafield4 = zen_db_prepare_input($_POST['extrafield4']);
+  $extrafield5 = zen_db_prepare_input($_POST['extrafield5']);
+  $extrafield6 = zen_db_prepare_input($_POST['extrafield6']);
   $customers_authorization = (int)CUSTOMERS_APPROVAL_AUTHORIZATION;
   $customers_referral = zen_db_prepare_input($_POST['customers_referral']);
 
@@ -118,6 +124,48 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
         $error = true;
         $messageStack->add('create_account', ENTRY_DATE_OF_BIRTH_ERROR);
       }
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD1 == 'true' and EXTRAFIELD_REQUIRED1 == 'true') {
+    if (strlen($extrafield1) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR1);
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD2 == 'true' and EXTRAFIELD_REQUIRED2 == 'true') {
+    if (strlen($extrafield2) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR2);
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD3 == 'true' and EXTRAFIELD_REQUIRED3 == 'true') {
+    if (strlen($extrafield3) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR3);
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD4 == 'true' and EXTRAFIELD_REQUIRED4 == 'true') {
+    if (strlen($extrafield4) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR4);
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD5 == 'true' and EXTRAFIELD_REQUIRED5 == 'true') {
+    if (strlen($extrafield5) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR5);
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD6 == 'true' and EXTRAFIELD_REQUIRED6 == 'true') {
+    if (strlen($extrafield6) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR6);
     }
   }
 
@@ -273,6 +321,12 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
                            array('fieldName'=>'customers_nick', 'value'=>$nick, 'type'=>'stringIgnoreNull'),
                            array('fieldName'=>'customers_telephone', 'value'=>$telephone, 'type'=>'stringIgnoreNull'),
                            array('fieldName'=>'customers_fax', 'value'=>$fax, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield1', 'value'=>$extrafield1, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield2', 'value'=>$extrafield2, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield3', 'value'=>$extrafield3, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield4', 'value'=>$extrafield4, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield5', 'value'=>$extrafield5, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield6', 'value'=>$extrafield6, 'type'=>'stringIgnoreNull'),
                            array('fieldName'=>'customers_newsletter', 'value'=>$newsletter, 'type'=>'integer'),
                            array('fieldName'=>'customers_email_format', 'value'=>$email_format, 'type'=>'stringIgnoreNull'),
                            array('fieldName'=>'customers_default_address_id', 'value'=>0, 'type'=>'integer'),
