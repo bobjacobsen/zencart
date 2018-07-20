@@ -190,6 +190,18 @@
 </fieldset>
 
 <?php
+  if (ACCOUNT_COMPANY == 'true') {
+?>
+<fieldset>
+<legend><?php echo CATEGORY_COMPANY; ?></legend>
+<label class="inputLabel" for="company"><?php echo ENTRY_COMPANY; ?></label>
+<?php echo zen_draw_input_field('company', '', zen_set_field_length(TABLE_ADDRESS_BOOK, 'entry_company', '40') . ' id="company" placeholder="' . ENTRY_COMPANY_TEXT . '"'. (ACCOUNT_COMPANY == 'true' && (int)ENTRY_COMPANY_MIN_LENGTH != 0 ? ' required' : '')); ?>
+</fieldset>
+<?php
+  }
+?>
+
+<?php
   if (ACCOUNT_DOB == 'true') {
 ?>
 <fieldset>
