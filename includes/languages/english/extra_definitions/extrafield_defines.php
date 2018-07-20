@@ -23,17 +23,17 @@
 define('EXTRAFIELD_TITLE', 'EXTRA FIELDS');
 
 
-define('ENTRY_EXTRAFIELD1', 'Name on Badge:');
-define('ENTRY_EXTRAFIELD_ERROR1', 'Please enter your preferred badge name.');
+define('ENTRY_EXTRAFIELD1', 'Registration Number:');
+define('ENTRY_EXTRAFIELD_ERROR1', 'This is your registration number.');
 
-define('ENTRY_EXTRAFIELD2', 'MMR:');
-define('ENTRY_EXTRAFIELD2_ERROR', 'Please enter your MMR status.');
+define('ENTRY_EXTRAFIELD2', 'Name on Badge:');
+define('ENTRY_EXTRAFIELD2_ERROR', 'Please enter your preferred badge name.');
 
-define('ENTRY_EXTRAFIELD3', 'First Time Attendee:');
-define('ENTRY_EXTRAFIELD3_ERROR', 'Please enter your first time attendee status.');
+define('ENTRY_EXTRAFIELD3', 'MMR:');
+define('ENTRY_EXTRAFIELD3_ERROR', 'Please enter whether you are an NMRA Master Model Railroader:');
 
-define('ENTRY_EXTRAFIELD4', 'Comments:');
-define('ENTRY_EXTRAFIELD4_ERROR', 'Please enter your Comments.');
+define('ENTRY_EXTRAFIELD4', 'First Time Attendee:');
+define('ENTRY_EXTRAFIELD4_ERROR', 'Please enter whether you are a first time attendee:');
 
 define('ENTRY_EXTRAFIELD5', 'Comments:');
 define('ENTRY_EXTRAFIELD5_ERROR', 'Please enter your Comments.');
