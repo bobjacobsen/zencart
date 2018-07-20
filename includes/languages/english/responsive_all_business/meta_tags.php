@@ -8,10 +8,10 @@
  */
 
 // page title
-define('TITLE', 'Responsive All Business');
+define('TITLE', 'Gateway 2020');
 
 // Site Tagline
-define('SITE_TAGLINE', 'Free Responsive Template by Picaflor Azul Zen Cart Design');
+define('SITE_TAGLINE', 'The NMRA National Convention in St Louis');
 
 // Custom Keywords
 define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
