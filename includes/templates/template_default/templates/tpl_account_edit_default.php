@@ -90,7 +90,7 @@ if (DISPLAY_EXTRAFIELD2 == 'true' ) {
 if (DISPLAY_EXTRAFIELD3 == 'true' ) {
 ?>
 <label class="inputLabel" for="extrafield3"><?php echo ENTRY_EXTRAFIELD3; ?></label>
-<?php echo zen_draw_input_field('extrafield3', $account->fields['customers_extrafield3'], 'id="extrafield3" placeholder="' . ENTRY_EXTRAFIELD3_TEXT . '"', '32'); ?>
+<?php echo zen_draw_checkbox_field('extrafield3', '', $account->fields['customers_extrafield3']); ?>
 <br class="clearBoth" />
 <?php 
   }
@@ -99,7 +99,7 @@ if (DISPLAY_EXTRAFIELD3 == 'true' ) {
 if (DISPLAY_EXTRAFIELD4 == 'true' ) {
 ?>
 <label class="inputLabel" for="extrafield4"><?php echo ENTRY_EXTRAFIELD4; ?></label>
-<?php echo zen_draw_input_field('extrafield4', $account->fields['customers_extrafield4'], 'id="extrafield4" placeholder="' . ENTRY_EXTRAFIELD4_TEXT . '"', '32'); ?>
+<?php echo zen_draw_checkbox_field('extrafield4', '', $account->fields['customers_extrafield4']); ?>
 <br class="clearBoth" />
 <?php 
   }
