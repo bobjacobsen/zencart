@@ -17,7 +17,7 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        jQuery(".content").hide();
+        //jQuery(".content").hide();
         //toggle the componenet with class msg_body
         jQuery(".heading").click(function()
                                  {
@@ -148,11 +148,11 @@ if (CUSTOMERS_APPROVAL == 3 and TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM == 
 <br class="clearBoth" /> 
 <hr id="product-divider" />
 
+<?php if ( (($flag_show_product_info_model == 1 and $products_model != '') or ($flag_show_product_info_weight == 1 and $products_weight !=0) or ($flag_show_product_info_quantity == 1) or ($flag_show_product_info_manufacturer == 1 and !empty($manufacturers_name))) ) { ?>
+<!--bof Product details list  -->
 <div class="layer1">
     <p class="heading"><?php echo PRODUCT_DETAILS; ?></p>
 <div class="content">
-<!--bof Product details list  -->
-<?php if ( (($flag_show_product_info_model == 1 and $products_model != '') or ($flag_show_product_info_weight == 1 and $products_weight !=0) or ($flag_show_product_info_quantity == 1) or ($flag_show_product_info_manufacturer == 1 and !empty($manufacturers_name))) ) { ?>
 <ul id="productDetailsList" class="floatingBox back">
   <?php echo (($flag_show_product_info_model == 1 and $products_model !='') ? '<li>' . TEXT_PRODUCT_MODEL . $products_model . '</li>' : '') . "\n"; ?>
   <?php echo (($flag_show_product_info_weight == 1 and $products_weight !=0) ? '<li>' . TEXT_PRODUCT_WEIGHT .  $products_weight . TEXT_PRODUCT_WEIGHT_UNIT . '</li>'  : '') . "\n"; ?>
@@ -160,12 +160,12 @@ if (CUSTOMERS_APPROVAL == 3 and TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM == 
   <?php echo (($flag_show_product_info_manufacturer == 1 and !empty($manufacturers_name)) ? '<li>' . TEXT_PRODUCT_MANUFACTURER . $manufacturers_name . '</li>' : '') . "\n"; ?>
 </ul>
 <br class="clearBoth" />
+</div>
+</div>
 <?php
   }
 ?>
 <!--eof Product details list -->
-</div>
-</div>
 
 <div class="layer1"> 
     <p class="heading"><?php echo PRODUCT_DESCRIPTION; ?></p>
