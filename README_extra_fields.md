@@ -15,3 +15,6 @@ The database additions are in _both_
 The fields are stored in the customers table as varchar(32) default NULL
 
 
+Validation is performed in 
+[]./includes/templates/template_default/templates/tpl_account_edit_default.php
+[]./includes/templates/template_default/templates/tpl_modules_create_account.php
