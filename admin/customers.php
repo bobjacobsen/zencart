@@ -901,25 +901,22 @@ function check_form() {
         </table></td>
       </tr>
       
-<?php
-  if (ACCOUNT_FAX_NUMBER == 'true') {
-?>
-          <tr>
-            <td class="main"><?php echo ENTRY_FAX_NUMBER; ?></td>
-            <td class="main">
-<?php
-  if ($processed == true) {
-    echo $cInfo->customers_fax . zen_draw_hidden_field('customers_fax');
-  } else {
-    echo zen_draw_input_field('customers_fax', htmlspecialchars($cInfo->customers_fax, ENT_COMPAT, CHARSET, TRUE), zen_set_field_length(TABLE_CUSTOMERS, 'customers_fax', 15));
-  }
-?></td>
-          </tr>
-<?php } ?>
-        </table></td>
-      </tr>
       
 <!-- start extrafield -->
+<?php
+  if (DISPLAY_EXTRAFIELD1 == 'true' or DISPLAY_EXTRAFIELD2 == 'true' or DISPLAY_EXTRAFIELD3 == 'true' or DISPLAY_EXTRAFIELD4 == 'true' or DISPLAY_EXTRAFIELD5 == 'true' or DISPLAY_EXTRAFIELD6 == 'true') {
+?>
+      <tr>
+        <td><?php echo zen_draw_separator('pixel_trans.gif', '1', '10'); ?></td>
+      </tr>
+      <tr>
+        <td class="formAreaTitle"><?php echo "EXTRAS:"; ?></td>
+      </tr>
+      <tr>
+        <td class="formArea"><table border="0" cellspacing="2" cellpadding="2">
+      </tr>
+<?php } ?>
+
 <?php
   if (DISPLAY_EXTRAFIELD1 == 'true') {
 ?>
@@ -969,7 +966,7 @@ function check_form() {
 
 <?php } ?>         
 <?php
-  if (DISPLAY_EXTRAFIELD == 'true') {
+  if (DISPLAY_EXTRAFIELD4 == 'true') {
 ?>
           <tr>
             <td class="main"><?php echo ENTRY_EXTRAFIELD4; ?></td>
@@ -1017,6 +1014,8 @@ function check_form() {
 
 <?php } ?>         
 
+        </table></td>
+      </tr>
 
 
 
