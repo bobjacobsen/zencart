@@ -20,6 +20,8 @@
 // $Id: english.php 277 2004-09-10 23:03:52Z wilt $
 //
 
+// Ensure consistency with admin/includes/languages/english/customers.php
+
 define('EXTRAFIELD_TITLE', 'EXTRA FIELDS');
 
 

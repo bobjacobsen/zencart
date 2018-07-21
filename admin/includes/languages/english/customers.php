@@ -67,3 +67,11 @@ define('ADDRESS_BOOK_TITLE', 'Address Book Entries');
 define('PRIMARY_ADDRESS', '(primary address)');
 define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOTE:</strong></span> A maximum of %s address book entries allowed.');
 define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | 1 of  ');
+
+// Keep the following consistent with includes/languages/english/extra_definitions/extrafield_defines.php
+define('ENTRY_EXTRAFIELD1', 'Registration Number:');
+define('ENTRY_EXTRAFIELD2', 'Name on Badge:');
+define('ENTRY_EXTRAFIELD3', 'MMR:');
+define('ENTRY_EXTRAFIELD4', 'First Time Attendee:');
+define('ENTRY_EXTRAFIELD5', 'Comments:');
+define('ENTRY_EXTRAFIELD6', 'Comments:');
