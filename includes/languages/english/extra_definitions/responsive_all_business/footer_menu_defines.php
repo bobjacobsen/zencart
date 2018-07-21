@@ -13,7 +13,8 @@
 Define('TITLE_ONE', '<li class="menuTitle">Quick Links</li>');
 Define('HOME', '<li><a href="' . HTTP_SERVER . DIR_WS_CATALOG . '">' . HEADER_TITLE_CATALOG . '</a></li>');
 Define('FEATURED','<li><a href="' . zen_href_link(FILENAME_FEATURED_PRODUCTS) . '">' .  TABLE_HEADING_FEATURED_PRODUCTS .  '</a></li>');
-Define('SPECIALS', '<li><a href="' . zen_href_link(FILENAME_SPECIALS) . '">' . BOX_HEADING_SPECIALS . '</a></li>');
+/* Define('SPECIALS', '<li><a href="' . zen_href_link(FILENAME_SPECIALS) . '">' . BOX_HEADING_SPECIALS . '</a></li>'); */
+Define('SPECIALS','');
 Define('NEWPRODUCTS', '<li><a href="' . zen_href_link(FILENAME_PRODUCTS_NEW) . '">' . BOX_HEADING_WHATS_NEW . '</a></li>');
 Define('ALLPRODUCTS', '<li><a href="' . zen_href_link(FILENAME_PRODUCTS_ALL) . '">' .CATEGORIES_BOX_HEADING_PRODUCTS_ALL . '</a></li>');
 /*EOF Menu Column 1 link Definitions*/
