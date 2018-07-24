@@ -66,10 +66,10 @@ Define('BLOG_ICON', 'blog.png');
  
 /*bof bottom footer urls*/
 Define('FACEBOOK','http://www.facebook.com/Custom.Zen.Cart.Design');
-Define('TWITTER', 'http://www.twitter.com/picaflorazul');
-Define('YOUTUBE', 'http://www.youtube.com/user/ZenCartEasyHelp');
-Define('PINTEREST', 'http://www.pinterest.com/picaflorazul');
-Define('GOOGLE', 'https://plus.google.com/113609090217058276980/posts');
-Define('BLOG', 'http://www.picaflor-azul.com/blog');
+Define('TWITTER', '');
+Define('YOUTUBE', '');
+Define('PINTEREST', '');
+Define('GOOGLE', '');
+Define('BLOG', '');
 
 //EOF
