@@ -33,12 +33,24 @@
 
 
 <div id="social-media">
+<?php if (FACEBOOK != '') { ?>
 <a href="<?php echo FACEBOOK; ?>" target="_blank"><img src="<?php  echo $template->get_template_dir('',DIR_WS_TEMPLATE, $current_page_base,'images').'/'.FACEBOOK_ICON ?>"  alt="facebook link" class="smi facebook" /></a>
+<?php } ?>
+<?php if (TWITTER != '') { ?>
 <a href="<?php echo TWITTER; ?>" target="_blank"><img src="<?php  echo $template->get_template_dir('',DIR_WS_TEMPLATE, $current_page_base,'images').'/'.TWITTER_ICON ?>"  alt="twitter link" class="smi twitter" /></a>
+<?php } ?>
+<?php if (YOUTUBE != '') { ?>
 <a href="<?php echo YOUTUBE; ?>" target="_blank"><img src="<?php  echo $template->get_template_dir('',DIR_WS_TEMPLATE, $current_page_base,'images').'/'.YOUTUBE_ICON ?>"  alt="youtube link" class="smi youtube" /></a>
+<?php } ?>
+<?php if (PINTEREST != '') { ?>
 <a href="<?php echo PINTEREST; ?>" target="_blank"><img src="<?php  echo $template->get_template_dir('',DIR_WS_TEMPLATE, $current_page_base,'images').'/'.PINTEREST_ICON ?>"  alt="pinterest link" class="smi pinterest" /></a>
+<?php } ?>
+<?php if (GOOGLE != '') { ?>
 <a href="<?php echo GOOGLE; ?>" target="_blank"><img src="<?php  echo $template->get_template_dir('',DIR_WS_TEMPLATE, $current_page_base,'images').'/'.GOOGLE_ICON ?>"  alt="google link" class="smi google" /></a>
+<?php } ?>
+<?php if (BLOG != '') { ?>
 <a href="<?php echo BLOG; ?>" target="_blank"><img src="<?php  echo $template->get_template_dir('',DIR_WS_TEMPLATE, $current_page_base,'images').'/'.BLOG_ICON ?>"  alt="blog link" class="smi blog" /></a>
+<?php } ?>
 
 
 </div>
