@@ -12,10 +12,10 @@ if ($this_is_home_page) {
     } ?>
 
 <div id="home-text">
-<p>
-This content is located in the file at: /languages/english/html_includes/responsive_all_business/define_main_page.php
-</p>
-<p>
-You can quickly edit this content via Admin->Tools->Define Pages Editor, and select define_main_page from the pulldown.
-</p>
+
+<h2>Welcome to the Online Registration Portal and Company Store!</h2>
+
+We plan on offering several unique and distinctive apparel options as well as special events.  Check back often as we will be adding new online items prior to the convention.
+
+
 </div>		

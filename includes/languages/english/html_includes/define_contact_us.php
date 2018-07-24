@@ -1,3 +1,4 @@
-<p><strong>Contact Us Sample Text ...</strong></p>
-<p>This section of text is from the Define Pages Editor located under Tools in the Admin.</p>
-<p>To remove this section of the text, delete it from the Define Pages Editor.</p>
+<p>For questions and information email <a href="mailto:info@gateway2020.org">info@gateway2020.org</a></p>
+<p>For questions or issues with registration email <a href="mailto:registration@gateway2020.org">registration@gateway2020.org</a></p>
+
+<p>You can also call us at 618 233-8140 Ext 314 leave a message and we'll get back to you ASAP!</p>
