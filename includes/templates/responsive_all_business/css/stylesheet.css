@@ -4,7 +4,7 @@ body {margin: 0;background: #edf9fb url(../images/bk.jpg) repeat-x;font-family: 
 a img {border: none;}
 a:link, #navEZPagesTOC ul li a {color:#444443;text-decoration:none;}
 a:visited {color: #444443;text-decoration:none;}
-a:hover, #navEZPagesTOC ul li a:hover, #navMain ul li a:hover, #navSupp ul li a:hover, #navCatTabs ul li a:hover {color: #67cadf;}
+a:hover, #navEZPagesTOC ul li a:hover, #navMain ul li a:hover, #navSupp ul li a:hover, #navCatTabs ul li a:hover {color: #51c1f5;}
 a:active {color:#444443;}
 h1 {font-size: 1.5em;}
 h2 {font-size: 1.4em;}
@@ -63,12 +63,12 @@ ADDRESS {font-style:normal;}
 #currency_header {margin:3px 35px 0 0 ;float:right;}
 #currency_header select{background:#fff;border:1px solid #b5b5b5;}
 #lang_header {margin:5px 15px 0 0;float:right;}
-.header-checkout {color:#67cadf;font-weight:bold;}
+.header-checkout {color:#51c1f5;font-weight:bold;}
 .header-checkout:hover {color:#444443;}
 #navEZPagesTop {background-color:#444;}
 #navEZPagesTop {margin:0;padding:0.5em;font-size:0.95em;font-weight:bold;color:#fffffd;}
 #navEZPagesTop a{color:#fffffd;}
-#navEZPagesTop a:hover {color:#67cadf;}
+#navEZPagesTop a:hover {color:#51c1f5;}
 #navCatTabsWrapper {margin: 0em;background-color: #444;font-weight: bold;color: #fff;height: 1%;width: 100%;}
 #navCatTabs ul  {margin: 0;padding:  0.5em 0em;list-style-type: none;text-align: center;line-height: 1.5em;}
 #navCatTabs ul li {display: inline;}
@@ -140,9 +140,9 @@ ADDRESS {font-style:normal;}
 /*bof sideboxes*/
 #navColumnOne {background-color:#fff;}
 #navColumnTwo {background-color:#fff;}
-h3.leftBoxHeading, h3.rightBoxHeading {font-size:1.3em;color:#1bbee7;text-transform:uppercase;}
-h3.leftBoxHeading a, h3.rightBoxHeading a{font-size:1.0em;color:#1bbee7;text-transform:uppercase;}
-.leftBoxHeading, .centerBoxHeading, .rightBoxHeading {margin:0;padding:0.5em 0.2em;background:#e2e3e8;background: -moz-linear-gradient(top, #f8f8f8, #e2e3e8);background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8), to(#e2e3e8));background: -o-linear-gradient(top, #f8f8f8, #e2e3e8);color:#1bbee7;text-transform:uppercase;}
+h3.leftBoxHeading, h3.rightBoxHeading {font-size:1.3em;color:#51c1f5;text-transform:uppercase;}
+h3.leftBoxHeading a, h3.rightBoxHeading a{font-size:1.0em;color:#51c1f5;text-transform:uppercase;}
+.leftBoxHeading, .centerBoxHeading, .rightBoxHeading {margin:0;padding:0.5em 0.2em;background:#e2e3e8;background: -moz-linear-gradient(top, #f8f8f8, #e2e3e8);background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8), to(#e2e3e8));background: -o-linear-gradient(top, #f8f8f8, #e2e3e8);color:#51c1f5;text-transform:uppercase;}
 .leftBoxContainer, .rightBoxContainer {margin-top:1.5em;border:1px solid #fff;margin-bottom:20px;}
 .rightBoxContainer{margin-right:7px;}
 .sideBoxContentItem{margin-bottom:10px;margin-top:10px;}
@@ -152,7 +152,7 @@ h3.rightBoxHeading a:hover {color:#444443;text-decoration:none;}
 #catBoxDivider {display:none;}
 #whatsnew, #featured, #specials {font-size:100%;font-weight:bold;color:#000;}
 #whatsnew a, #featured a, #specials a{font-size:100%;font-weight:bold;color:#918f8f;} 
-#specialsHeading a, #whatsnewHeading a, #featuredHeading a {color:#1bbee7;}
+#specialsHeading a, #whatsnewHeading a, #featuredHeading a {color:#51c1f5;}
 #specialsHeading a:hover, #whatsnewHeading a:hover, #featuredHeading a:hover {color:#444443;}
 #shoppingcartHeading {font-size:1.1em;}
 .centeredContent, TH, #cartEmptyText, #cartBoxGVButton, #cartBoxEmpty, #cartBoxVoucherBalance, #navCatTabsWrapper, #navEZPageNextPrev, #bannerOne, #bannerTwo,  #bannerThree,  #bannerFour,  #bannerFive,  #bannerSix, #siteinfoCredits, #siteinfoStatus, #siteinfoIP, .center, .cartRemoveItemDisplay, .cartQuantityUpdate, .cartQuantity, .cartTotalsDisplay, #cartBoxGVBalance, .leftBoxHeading, .centerBoxHeading,.rightBoxHeading, .productListing-data, .accountQuantityDisplay, .ratingRow, LABEL#textAreaReviews, #productMainImage, #reviewsInfoDefaultProductImage, #productReviewsDefaultProductImage, #reviewWriteMainImage, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew, .gvBal, .attribImg {text-align:center;}
