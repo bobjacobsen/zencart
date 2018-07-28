@@ -7,7 +7,6 @@ rsync-filter
 
 install.txt
 docs/
-download/
 not_for_release/
 
 # exclude moving un-renamed versions
