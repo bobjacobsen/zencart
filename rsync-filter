@@ -1,0 +1,16 @@
+# intended for the --filter rsync option to prevent moving unneeded files to the server
+# if you do need some of these, i.e. zc_install, you can move them manually
+
+**.md
+.DS_Store
+rsync-filter
+
+install.txt
+docs/
+download/
+not_for_release/
+
+# exclude moving un-renamed versions
+zc_install/
+admin/
+
