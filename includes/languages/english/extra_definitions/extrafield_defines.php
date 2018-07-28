@@ -37,8 +37,8 @@ define('ENTRY_EXTRAFIELD3_ERROR', 'Please enter Field #3.');
 define('ENTRY_EXTRAFIELD4', 'Comments:');
 define('ENTRY_EXTRAFIELD4_ERROR', 'Please enter your Comments.');
 
-define('ENTRY_EXTRAFIELD5', 'Comments:');
-define('ENTRY_EXTRAFIELD5_ERROR', 'Please enter your Comments.');
+define('ENTRY_EXTRAFIELD5', 'NMRA Member Number:');
+define('ENTRY_EXTRAFIELD5_ERROR', 'Please enter your NMRA Member Number:');
 
 define('ENTRY_EXTRAFIELD6', 'Comments:');
 define('ENTRY_EXTRAFIELD6_ERROR', 'Please enter your Comments.');

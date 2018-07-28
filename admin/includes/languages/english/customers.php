@@ -73,5 +73,5 @@ define('ENTRY_EXTRAFIELD1', 'Registration Number:');
 define('ENTRY_EXTRAFIELD2', 'Name on Badge:');
 define('ENTRY_EXTRAFIELD3', 'MMR:');
 define('ENTRY_EXTRAFIELD4', 'First Time Attendee:');
-define('ENTRY_EXTRAFIELD5', 'Comments:');
+define('ENTRY_EXTRAFIELD5', 'NMRA Member Number:');
 define('ENTRY_EXTRAFIELD6', 'Comments:');
