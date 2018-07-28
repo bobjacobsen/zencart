@@ -37,8 +37,8 @@ define('ENTRY_EXTRAFIELD3_ERROR', 'Please enter whether you are an NMRA Master M
 define('ENTRY_EXTRAFIELD4', 'First Time Attendee:');
 define('ENTRY_EXTRAFIELD4_ERROR', 'Please enter whether you are a first time attendee:');
 
-define('ENTRY_EXTRAFIELD5', 'Comments:');
-define('ENTRY_EXTRAFIELD5_ERROR', 'Please enter your Comments.');
+define('ENTRY_EXTRAFIELD5', 'NMRA Member Number:');
+define('ENTRY_EXTRAFIELD5_ERROR', 'Please enter your NMRA Member Number:');
 
 define('ENTRY_EXTRAFIELD6', 'Comments:');
 define('ENTRY_EXTRAFIELD6_ERROR', 'Please enter your Comments.');
