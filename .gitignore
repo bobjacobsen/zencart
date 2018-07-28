@@ -1,5 +1,8 @@
-configure.php
-local/configure.php
+# note that there are .gitignore files in subdirectories specific to those subdirectories
+
+/includes/configure.php
+/admin/includes/configure.php
+
 /vendor
 
 *.php1
