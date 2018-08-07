@@ -26,7 +26,7 @@ define('EXTRAFIELD_TITLE', 'EXTRA FIELDS');
 
 
 define('ENTRY_EXTRAFIELD1', 'Field #1:');
-define('ENTRY_EXTRAFIELD_ERROR1', 'Please enter Field #1.');
+define('ENTRY_EXTRAFIELD1_ERROR', 'Please enter Field #1.');
 
 define('ENTRY_EXTRAFIELD2', 'Field #2:');
 define('ENTRY_EXTRAFIELD2_ERROR', 'Please enter Field #2.');
@@ -34,50 +34,104 @@ define('ENTRY_EXTRAFIELD2_ERROR', 'Please enter Field #2.');
 define('ENTRY_EXTRAFIELD3', 'Field #3:');
 define('ENTRY_EXTRAFIELD3_ERROR', 'Please enter Field #3.');
 
-define('ENTRY_EXTRAFIELD4', 'Comments:');
-define('ENTRY_EXTRAFIELD4_ERROR', 'Please enter your Comments.');
+define('ENTRY_EXTRAFIELD4', 'Field #4:');
+define('ENTRY_EXTRAFIELD4_ERROR', 'Please enter Field #4.');
 
-define('ENTRY_EXTRAFIELD5', 'NMRA Member Number:');
-define('ENTRY_EXTRAFIELD5_ERROR', 'Please enter your NMRA Member Number:');
+define('ENTRY_EXTRAFIELD5', 'Field #5:');
+define('ENTRY_EXTRAFIELD5_ERROR', 'Please enter Field #5.');
 
-define('ENTRY_EXTRAFIELD6', 'Comments:');
-define('ENTRY_EXTRAFIELD6_ERROR', 'Please enter your Comments.');
+define('ENTRY_EXTRAFIELD6', 'Field #6:');
+define('ENTRY_EXTRAFIELD6_ERROR', 'Please enter Field #6.');
+
+define('ENTRY_EXTRAFIELD7', 'Field #7:');
+define('ENTRY_EXTRAFIELD7_ERROR', 'Please enter Field #7.');
+
+define('ENTRY_EXTRAFIELD8', 'Field #8:');
+define('ENTRY_EXTRAFIELD8_ERROR', 'Please enter Field #8.');
+
+define('ENTRY_EXTRAFIELD9', 'Field #9:');
+define('ENTRY_EXTRAFIELD9_ERROR', 'Please enter Field #9.');
+
+define('ENTRY_EXTRAFIELD10', 'Field #10:');
+define('ENTRY_EXTRAFIELD10_ERROR', 'Please enter Field #10.');
+
+define('ENTRY_EXTRAFIELD11', 'Field #11:');
+define('ENTRY_EXTRAFIELD11_ERROR', 'Please enter Field #11.');
+
+define('ENTRY_EXTRAFIELD12', 'Field #12:');
+define('ENTRY_EXTRAFIELD12_ERROR', 'Please enter Field #12.');
 
 
-if (EXTRAFIELD_REQUIRED1 == 'true') {
+if (EXTRAFIELD1_REQUIRED == 'true') {
   define('ENTRY_EXTRAFIELD1_TEXT', '*');
 } else {
   define('ENTRY_EXTRAFIELD1_TEXT', '');
 }
 
-if (EXTRAFIELD_REQUIRED2 == 'true') {
+if (EXTRAFIELD2_REQUIRED == 'true') {
   define('ENTRY_EXTRAFIELD2_TEXT', '*');
 } else {
   define('ENTRY_EXTRAFIELD2_TEXT', '');
 }
 
-if (EXTRAFIELD_REQUIRED3 == 'true') {
+if (EXTRAFIELD3_REQUIRED == 'true') {
   define('ENTRY_EXTRAFIELD3_TEXT', '*');
 } else {
   define('ENTRY_EXTRAFIELD3_TEXT', '');
 }
 
-if (EXTRAFIELD_REQUIRED4 == 'true') {
+if (EXTRAFIELD4_REQUIRED == 'true') {
   define('ENTRY_EXTRAFIELD4_TEXT', '*');
 } else {
   define('ENTRY_EXTRAFIELD4_TEXT', '');
 }
 
-if (EXTRAFIELD_REQUIRED5 == 'true') {
+if (EXTRAFIELD5_REQUIRED == 'true') {
   define('ENTRY_EXTRAFIELD5_TEXT', '*');
 } else {
   define('ENTRY_EXTRAFIELD5_TEXT', '');
 }
 
-if (EXTRAFIELD_REQUIRED6 == 'true') {
+if (EXTRAFIELD6_REQUIRED == 'true') {
   define('ENTRY_EXTRAFIELD6_TEXT', '*');
 } else {
   define('ENTRY_EXTRAFIELD6_TEXT', '');
+}
+
+if (EXTRAFIELD7_REQUIRED == 'true') {
+  define('ENTRY_EXTRAFIELD7_TEXT', '*');
+} else {
+  define('ENTRY_EXTRAFIELD7_TEXT', '');
+}
+
+if (EXTRAFIELD8_REQUIRED == 'true') {
+  define('ENTRY_EXTRAFIELD8_TEXT', '*');
+} else {
+  define('ENTRY_EXTRAFIELD8_TEXT', '');
+}
+
+if (EXTRAFIELD9_REQUIRED == 'true') {
+  define('ENTRY_EXTRAFIELD9_TEXT', '*');
+} else {
+  define('ENTRY_EXTRAFIELD9_TEXT', '');
+}
+
+if (EXTRAFIELD10_REQUIRED == 'true') {
+  define('ENTRY_EXTRAFIELD10_TEXT', '*');
+} else {
+  define('ENTRY_EXTRAFIELD10_TEXT', '');
+}
+
+if (EXTRAFIELD11_REQUIRED == 'true') {
+  define('ENTRY_EXTRAFIELD11_TEXT', '*');
+} else {
+  define('ENTRY_EXTRAFIELD11_TEXT', '');
+}
+
+if (EXTRAFIELD12_REQUIRED == 'true') {
+  define('ENTRY_EXTRAFIELD12_TEXT', '*');
+} else {
+  define('ENTRY_EXTRAFIELD12_TEXT', '');
 }
 
 

@@ -127,45 +127,86 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
     }
   }
 
-  if ( DISPLAY_EXTRAFIELD1 == 'true' and EXTRAFIELD_REQUIRED1 == 'true') {
+  if ( DISPLAY_EXTRAFIELD1 == 'true' and EXTRAFIELD1_REQUIRED == 'true') {
     if (strlen($extrafield1) == 0) {
       $error = true;
-      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR1);
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD1_ERROR);
     }
   }
 
-  if ( DISPLAY_EXTRAFIELD2 == 'true' and EXTRAFIELD_REQUIRED2 == 'true') {
+  if ( DISPLAY_EXTRAFIELD2 == 'true' and EXTRAFIELD2_REQUIRED == 'true') {
     if (strlen($extrafield2) == 0) {
       $error = true;
-      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR2);
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD2_ERROR);
     }
   }
 
-  if ( DISPLAY_EXTRAFIELD3 == 'true' and EXTRAFIELD_REQUIRED3 == 'true') {
+  if ( DISPLAY_EXTRAFIELD3 == 'true' and EXTRAFIELD3_REQUIRED == 'true') {
     if (strlen($extrafield3) == 0) {
       $error = true;
-      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR3);
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD3_ERROR);
     }
   }
 
-  if ( DISPLAY_EXTRAFIELD4 == 'true' and EXTRAFIELD_REQUIRED4 == 'true') {
+  if ( DISPLAY_EXTRAFIELD4 == 'true' and EXTRAFIELD4_REQUIRED == 'true') {
     if (strlen($extrafield4) == 0) {
       $error = true;
-      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR4);
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD4_ERROR);
     }
   }
 
-  if ( DISPLAY_EXTRAFIELD5 == 'true' and EXTRAFIELD_REQUIRED5 == 'true') {
+  if ( DISPLAY_EXTRAFIELD5 == 'true' and EXTRAFIELD5_REQUIRED == 'true') {
     if (strlen($extrafield5) == 0) {
       $error = true;
-      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR5);
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD5_ERROR);
     }
   }
 
-  if ( DISPLAY_EXTRAFIELD6 == 'true' and EXTRAFIELD_REQUIRED6 == 'true') {
+  if ( DISPLAY_EXTRAFIELD6 == 'true' and EXTRAFIELD6_REQUIRED == 'true') {
     if (strlen($extrafield6) == 0) {
       $error = true;
-      $messageStack->add('create_account', ENTRY_EXTRAFIELD_ERROR6);
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD6_ERROR);
+    }
+  }
+  if ( DISPLAY_EXTRAFIELD7 == 'true' and EXTRAFIELD7_REQUIRED == 'true') {
+    if (strlen($extrafield7) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD7_ERROR);
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD8 == 'true' and EXTRAFIELD8_REQUIRED == 'true') {
+    if (strlen($extrafield8) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD8_ERROR);
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD9 == 'true' and EXTRAFIELD9_REQUIRED == 'true') {
+    if (strlen($extrafield9) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD9_ERROR);
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD10 == 'true' and EXTRAFIELD10_REQUIRED == 'true') {
+    if (strlen($extrafield10) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD10_ERROR);
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD11 == 'true' and EXTRAFIELD11_REQUIRED == 'true') {
+    if (strlen($extrafield11) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD11_ERROR);
+    }
+  }
+
+  if ( DISPLAY_EXTRAFIELD12 == 'true' and EXTRAFIELD12_REQUIRED == 'true') {
+    if (strlen($extrafield12) == 0) {
+      $error = true;
+      $messageStack->add('create_account', ENTRY_EXTRAFIELD12_ERROR);
     }
   }
 
@@ -327,6 +368,12 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
                            array('fieldName'=>'customers_extrafield4', 'value'=>$extrafield4, 'type'=>'stringIgnoreNull'),
                            array('fieldName'=>'customers_extrafield5', 'value'=>$extrafield5, 'type'=>'stringIgnoreNull'),
                            array('fieldName'=>'customers_extrafield6', 'value'=>$extrafield6, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield7', 'value'=>$extrafield7, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield8', 'value'=>$extrafield8, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield9', 'value'=>$extrafield9, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield10', 'value'=>$extrafield10, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield11', 'value'=>$extrafield11, 'type'=>'stringIgnoreNull'),
+                           array('fieldName'=>'customers_extrafield12', 'value'=>$extrafield12, 'type'=>'stringIgnoreNull'),
                            array('fieldName'=>'customers_newsletter', 'value'=>$newsletter, 'type'=>'integer'),
                            array('fieldName'=>'customers_email_format', 'value'=>$email_format, 'type'=>'stringIgnoreNull'),
                            array('fieldName'=>'customers_default_address_id', 'value'=>0, 'type'=>'integer'),

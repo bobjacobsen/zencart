@@ -104,6 +104,12 @@
         $customers_extrafield4 = zen_db_prepare_input($_POST['customers_extrafield4']);
         $customers_extrafield5 = zen_db_prepare_input($_POST['customers_extrafield5']);
         $customers_extrafield6 = zen_db_prepare_input($_POST['customers_extrafield6']);
+        $customers_extrafield7 = zen_db_prepare_input($_POST['customers_extrafield7']);
+        $customers_extrafield8 = zen_db_prepare_input($_POST['customers_extrafield8']);
+        $customers_extrafield9 = zen_db_prepare_input($_POST['customers_extrafield9']);
+        $customers_extrafield10 = zen_db_prepare_input($_POST['customers_extrafield10']);
+        $customers_extrafield11 = zen_db_prepare_input($_POST['customers_extrafield11']);
+        $customers_extrafield12 = zen_db_prepare_input($_POST['customers_extrafield12']);
         $customers_newsletter = zen_db_prepare_input($_POST['customers_newsletter']);
         $customers_group_pricing = (int)zen_db_prepare_input($_POST['customers_group_pricing']);
         $customers_email_format = zen_db_prepare_input($_POST['customers_email_format']);
@@ -267,6 +273,12 @@
                                 array('fieldName'=>'customers_extrafield4', 'value'=>$customers_extrafield4, 'type'=>'stringIgnoreNull'),
                                 array('fieldName'=>'customers_extrafield5', 'value'=>$customers_extrafield5, 'type'=>'stringIgnoreNull'),
                                 array('fieldName'=>'customers_extrafield6', 'value'=>$customers_extrafield6, 'type'=>'stringIgnoreNull'),
+                                array('fieldName'=>'customers_extrafield7', 'value'=>$customers_extrafield7, 'type'=>'stringIgnoreNull'),
+                                array('fieldName'=>'customers_extrafield8', 'value'=>$customers_extrafield8, 'type'=>'stringIgnoreNull'),
+                                array('fieldName'=>'customers_extrafield9', 'value'=>$customers_extrafield9, 'type'=>'stringIgnoreNull'),
+                                array('fieldName'=>'customers_extrafield10', 'value'=>$customers_extrafield10, 'type'=>'stringIgnoreNull'),
+                                array('fieldName'=>'customers_extrafield11', 'value'=>$customers_extrafield11, 'type'=>'stringIgnoreNull'),
+                                array('fieldName'=>'customers_extrafield12', 'value'=>$customers_extrafield12, 'type'=>'stringIgnoreNull'),
                                 array('fieldName'=>'customers_group_pricing', 'value'=>$customers_group_pricing, 'type'=>'stringIgnoreNull'),
                                 array('fieldName'=>'customers_newsletter', 'value'=>$customers_newsletter, 'type'=>'stringIgnoreNull'),
                                 array('fieldName'=>'customers_email_format', 'value'=>$customers_email_format, 'type'=>'stringIgnoreNull'),
@@ -424,8 +436,18 @@
                                           a.entry_company, a.entry_street_address, a.entry_suburb,
                                           a.entry_postcode, a.entry_city, a.entry_state, a.entry_zone_id,
                                           a.entry_country_id, c.customers_telephone, c.customers_fax,
-                                          c.customers_extrafield1, c.customers_extrafield2, c.customers_extrafield3,
-                                          c.customers_extrafield4, c.customers_extrafield5, c.customers_extrafield6,
+                                          c.customers_extrafield1, 
+                                          c.customers_extrafield2, 
+                                          c.customers_extrafield3,
+                                          c.customers_extrafield4, 
+                                          c.customers_extrafield5, 
+                                          c.customers_extrafield6,
+                                          c.customers_extrafield7, 
+                                          c.customers_extrafield8, 
+                                          c.customers_extrafield9,
+                                          c.customers_extrafield10, 
+                                          c.customers_extrafield11, 
+                                          c.customers_extrafield12,
                                           c.customers_newsletter, c.customers_default_address_id,
                                           c.customers_email_format, c.customers_group_pricing,
                                           c.customers_authorization, c.customers_referral
@@ -1008,6 +1030,102 @@ function check_form() {
     echo $cInfo->customers_extrafield6 . zen_draw_hidden_field('customers_extrafield6');
   } else {
     echo zen_draw_input_field('customers_extrafield6', $cInfo->customers_extrafield6, zen_set_field_length(TABLE_CUSTOMERS, 'customers_extrafield6', 32));
+  }
+?></td>
+          </tr>
+
+<?php } ?>         
+<?php
+  if (DISPLAY_EXTRAFIELD7 == 'true') {
+?>
+          <tr>
+            <td class="main"><?php echo ENTRY_EXTRAFIELD7; ?></td>
+            <td class="main">
+<?php
+  if ($processed == true) {
+    echo $cInfo->customers_extrafield7 . zen_draw_hidden_field('customers_extrafield7');
+  } else {
+    echo zen_draw_input_field('customers_extrafield7', $cInfo->customers_extrafield7, zen_set_field_length(TABLE_CUSTOMERS, 'customers_extrafield7', 32));
+  }
+?></td>
+          </tr>
+
+<?php } ?>         
+<?php
+  if (DISPLAY_EXTRAFIELD8 == 'true') {
+?>
+          <tr>
+            <td class="main"><?php echo ENTRY_EXTRAFIELD8; ?></td>
+            <td class="main">
+<?php
+  if ($processed == true) {
+    echo $cInfo->customers_extrafield8 . zen_draw_hidden_field('customers_extrafield8');
+  } else {
+    echo zen_draw_input_field('customers_extrafield8', $cInfo->customers_extrafield8, zen_set_field_length(TABLE_CUSTOMERS, 'customers_extrafield8', 32));
+  }
+?></td>
+          </tr>
+
+<?php } ?>         
+<?php
+  if (DISPLAY_EXTRAFIELD9 == 'true') {
+?>
+          <tr>
+            <td class="main"><?php echo ENTRY_EXTRAFIELD9; ?></td>
+            <td class="main">
+<?php
+  if ($processed == true) {
+    echo $cInfo->customers_extrafield9 . zen_draw_hidden_field('customers_extrafield9');
+  } else {
+    echo zen_draw_input_field('customers_extrafield9', $cInfo->customers_extrafield9, zen_set_field_length(TABLE_CUSTOMERS, 'customers_extrafield9', 32));
+  }
+?></td>
+          </tr>
+
+<?php } ?>         
+<?php
+  if (DISPLAY_EXTRAFIELD10 == 'true') {
+?>
+          <tr>
+            <td class="main"><?php echo ENTRY_EXTRAFIELD10; ?></td>
+            <td class="main">
+<?php
+  if ($processed == true) {
+    echo $cInfo->customers_extrafield10 . zen_draw_hidden_field('customers_extrafield10');
+  } else {
+    echo zen_draw_input_field('customers_extrafield10', $cInfo->customers_extrafield10, zen_set_field_length(TABLE_CUSTOMERS, 'customers_extrafield10', 32));
+  }
+?></td>
+          </tr>
+
+<?php } ?>         
+<?php
+  if (DISPLAY_EXTRAFIELD11 == 'true') {
+?>
+          <tr>
+            <td class="main"><?php echo ENTRY_EXTRAFIELD11; ?></td>
+            <td class="main">
+<?php
+  if ($processed == true) {
+    echo $cInfo->customers_extrafield11 . zen_draw_hidden_field('customers_extrafield11');
+  } else {
+    echo zen_draw_input_field('customers_extrafield11', $cInfo->customers_extrafield11, zen_set_field_length(TABLE_CUSTOMERS, 'customers_extrafield11', 32));
+  }
+?></td>
+          </tr>
+
+<?php } ?>         
+<?php
+  if (DISPLAY_EXTRAFIELD12 == 'true') {
+?>
+          <tr>
+            <td class="main"><?php echo ENTRY_EXTRAFIELD12; ?></td>
+            <td class="main">
+<?php
+  if ($processed == true) {
+    echo $cInfo->customers_extrafield12 . zen_draw_hidden_field('customers_extrafield12');
+  } else {
+    echo zen_draw_input_field('customers_extrafield12', $cInfo->customers_extrafield12, zen_set_field_length(TABLE_CUSTOMERS, 'customers_extrafield12', 32));
   }
 ?></td>
           </tr>

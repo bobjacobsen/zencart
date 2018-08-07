@@ -122,6 +122,60 @@ if (DISPLAY_EXTRAFIELD6 == 'true' ) {
 <?php 
   }
 ?>
+<?php
+if (DISPLAY_EXTRAFIELD7 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield7"><?php echo ENTRY_EXTRAFIELD7; ?></label>
+<?php echo zen_draw_input_field('extrafield7', $account->fields['customers_extrafield7'], 'id="extrafield7" placeholder="' . ENTRY_EXTRAFIELD7_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+<?php
+if (DISPLAY_EXTRAFIELD8 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield8"><?php echo ENTRY_EXTRAFIELD8; ?></label>
+<?php echo zen_draw_input_field('extrafield8', $account->fields['customers_extrafield8'], 'id="extrafield8" placeholder="' . ENTRY_EXTRAFIELD8_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+<?php
+if (DISPLAY_EXTRAFIELD9 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield9"><?php echo ENTRY_EXTRAFIELD9; ?></label>
+<?php echo zen_draw_input_field('extrafield9', $account->fields['customers_extrafield9'], 'id="extrafield9" placeholder="' . ENTRY_EXTRAFIELD9_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+<?php
+if (DISPLAY_EXTRAFIELD10 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield10"><?php echo ENTRY_EXTRAFIELD10; ?></label>
+<?php echo zen_draw_input_field('extrafield10', $account->fields['customers_extrafield10'], 'id="extrafield10" placeholder="' . ENTRY_EXTRAFIELD10_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+<?php
+if (DISPLAY_EXTRAFIELD11 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield11"><?php echo ENTRY_EXTRAFIELD11; ?></label>
+<?php echo zen_draw_input_field('extrafield11', $account->fields['customers_extrafield11'], 'id="extrafield11" placeholder="' . ENTRY_EXTRAFIELD11_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
+<?php
+if (DISPLAY_EXTRAFIELD12 == 'true' ) {
+?>
+<label class="inputLabel" for="extrafield12"><?php echo ENTRY_EXTRAFIELD12; ?></label>
+<?php echo zen_draw_input_field('extrafield12', $account->fields['customers_extrafield12'], 'id="extrafield12" placeholder="' . ENTRY_EXTRAFIELD12_TEXT . '"', '32'); ?>
+<br class="clearBoth" />
+<?php 
+  }
+?>
 
 <!-- end of extra field -->
 

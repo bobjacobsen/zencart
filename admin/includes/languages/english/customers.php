@@ -69,9 +69,15 @@ define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOTE:</strong></spa
 define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | 1 of  ');
 
 // Keep the following consistent with includes/languages/english/extra_definitions/extrafield_defines.php
-define('ENTRY_EXTRAFIELD1', 'Registration Number:');
-define('ENTRY_EXTRAFIELD2', 'Name on Badge:');
-define('ENTRY_EXTRAFIELD3', 'MMR:');
-define('ENTRY_EXTRAFIELD4', 'First Time Attendee:');
-define('ENTRY_EXTRAFIELD5', 'NMRA Member Number:');
-define('ENTRY_EXTRAFIELD6', 'Comments:');
+define('ENTRY_EXTRAFIELD1', 'Field #1:');
+define('ENTRY_EXTRAFIELD2', 'Field #2:');
+define('ENTRY_EXTRAFIELD3', 'Field #3:');
+define('ENTRY_EXTRAFIELD4', 'Field #4:');
+define('ENTRY_EXTRAFIELD5', 'Field #5:');
+define('ENTRY_EXTRAFIELD6', 'Field #6:');
+define('ENTRY_EXTRAFIELD7', 'Field #7:');
+define('ENTRY_EXTRAFIELD8', 'Field #8:');
+define('ENTRY_EXTRAFIELD9', 'Field #9:');
+define('ENTRY_EXTRAFIELD10', 'Field #10:');
+define('ENTRY_EXTRAFIELD11', 'Field #11:');
+define('ENTRY_EXTRAFIELD12', 'Field #12:');

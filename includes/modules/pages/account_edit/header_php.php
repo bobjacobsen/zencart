@@ -118,6 +118,12 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
                             array('fieldName'=>'customers_extrafield4', 'value'=>$extrafield4, 'type'=>'stringIgnoreNull'),
                             array('fieldName'=>'customers_extrafield5', 'value'=>$extrafield5, 'type'=>'stringIgnoreNull'),
                             array('fieldName'=>'customers_extrafield6', 'value'=>$extrafield6, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield7', 'value'=>$extrafield7, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield8', 'value'=>$extrafield8, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield9', 'value'=>$extrafield9, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield10', 'value'=>$extrafield10, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield11', 'value'=>$extrafield11, 'type'=>'stringIgnoreNull'),
+                            array('fieldName'=>'customers_extrafield12', 'value'=>$extrafield12, 'type'=>'stringIgnoreNull'),
                             array('fieldName'=>'customers_email_format', 'value'=>$email_format, 'type'=>'stringIgnoreNull')
     );
 
@@ -170,8 +176,18 @@ if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
 $account_query = "SELECT customers_gender, customers_firstname, customers_lastname,
                          customers_dob, customers_email_address, customers_telephone, customers_nick,
                          customers_fax, 
-                         customers_extrafield1, customers_extrafield2, customers_extrafield3,
-                         customers_extrafield4, customers_extrafield5, customers_extrafield6,
+                         customers_extrafield1, 
+                         customers_extrafield2, 
+                         customers_extrafield3,
+                         customers_extrafield4, 
+                         customers_extrafield5, 
+                         customers_extrafield6,
+                         customers_extrafield7, 
+                         customers_extrafield8, 
+                         customers_extrafield9,
+                         customers_extrafield10, 
+                         customers_extrafield11, 
+                         customers_extrafield12,
                          customers_email_format, customers_referral
                   FROM   " . TABLE_CUSTOMERS . "
                   WHERE  customers_id = :customersID";

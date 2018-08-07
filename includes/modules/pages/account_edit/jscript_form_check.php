@@ -162,23 +162,41 @@ function check_form(form_name) {
   check_input("telephone", <?php echo ENTRY_TELEPHONE_MIN_LENGTH; ?>, "<?php echo ENTRY_TELEPHONE_NUMBER_ERROR; ?>");
 <?php } ?>
 
-<?php if (DISPLAY_EXTRAFIELD1 && EXTRAFIELD_REQUIRED1) { ?>
-  check_input("extrafield1", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR1; ?>");
+<?php if (DISPLAY_EXTRAFIELD1 && EXTRAFIELD1_REQUIRED) { ?>
+  check_input("extrafield1", 0, "<?php echo ENTRY_EXTRAFIELD1_ERROR; ?>");
 <?php } ?>
-<?php if (DISPLAY_EXTRAFIELD2 && EXTRAFIELD_REQUIRED2) { ?>
-  check_input("extrafield2", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR2; ?>");
+<?php if (DISPLAY_EXTRAFIELD2 && EXTRAFIELD2_REQUIRED) { ?>
+  check_input("extrafield2", 0, "<?php echo ENTRY_EXTRAFIELD2_ERROR; ?>");
 <?php } ?>
-<?php if (DISPLAY_EXTRAFIELD3 && EXTRAFIELD_REQUIRED3) { ?>
-  check_input("extrafield3", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR3; ?>");
+<?php if (DISPLAY_EXTRAFIELD3 && EXTRAFIELD3_REQUIRED) { ?>
+  check_input("extrafield3", 0, "<?php echo ENTRY_EXTRAFIELD3_ERROR; ?>");
 <?php } ?>
-<?php if (DISPLAY_EXTRAFIELD4 && EXTRAFIELD_REQUIRED4) { ?>
-  check_input("extrafield4", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR4; ?>");
+<?php if (DISPLAY_EXTRAFIELD4 && EXTRAFIELD4_REQUIRED) { ?>
+  check_input("extrafield4", 0, "<?php echo ENTRY_EXTRAFIELD4_ERROR; ?>");
 <?php } ?>
-<?php if (DISPLAY_EXTRAFIELD5 && EXTRAFIELD_REQUIRED5) { ?>
-  check_input("extrafield5", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR5; ?>");
+<?php if (DISPLAY_EXTRAFIELD5 && EXTRAFIELD5_REQUIRED) { ?>
+  check_input("extrafield5", 0, "<?php echo ENTRY_EXTRAFIELD5_ERROR; ?>");
 <?php } ?>
-<?php if (DISPLAY_EXTRAFIELD6 && EXTRAFIELD_REQUIRED6) { ?>
-  check_input("extrafield6", 0, "<?php echo ENTRY_EXTRAFIELD_ERROR6; ?>");
+<?php if (DISPLAY_EXTRAFIELD6 && EXTRAFIELD6_REQUIRED) { ?>
+  check_input("extrafield6", 0, "<?php echo ENTRY_EXTRAFIELD6_ERROR; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD7 && EXTRAFIELD7_REQUIRED) { ?>
+  check_input("extrafield7", 0, "<?php echo ENTRY_EXTRAFIELD7_ERROR; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD8 && EXTRAFIELD8_REQUIRED) { ?>
+  check_input("extrafield8", 0, "<?php echo ENTRY_EXTRAFIELD8_ERROR; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD9 && EXTRAFIELD9_REQUIRED) { ?>
+  check_input("extrafield9", 0, "<?php echo ENTRY_EXTRAFIELD9_ERROR; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD10 && EXTRAFIELD10_REQUIRED) { ?>
+  check_input("extrafield10", 0, "<?php echo ENTRY_EXTRAFIELD10_ERROR; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD11 && EXTRAFIELD11_REQUIRED) { ?>
+  check_input("extrafield11", 0, "<?php echo ENTRY_EXTRAFIELD11_ERROR; ?>");
+<?php } ?>
+<?php if (DISPLAY_EXTRAFIELD12 && EXTRAFIELD12_REQUIRED) { ?>
+  check_input("extrafield12", 0, "<?php echo ENTRY_EXTRAFIELD12_ERROR; ?>");
 <?php } ?>
 
 <?php if ((int)ENTRY_PASSWORD_MIN_LENGTH > 0) { ?>
